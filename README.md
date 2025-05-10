@@ -58,7 +58,7 @@ python main.py
 ### 6. Check if the Data Was Saved to the Container
 Enter the MongoDB container shell:
 ```bash
-docker exec -it mongodb-container mongosh
+docker exec -it mongo mongosh
 ```
 Once inside MongoDB, check the database:
 ```javascript
